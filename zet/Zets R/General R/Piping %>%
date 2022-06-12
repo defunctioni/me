@@ -6,13 +6,12 @@ R comes with an interesting way to "pipe" together multiple commands.
 
 Example code block:
 
-```{r}
+```r
 dataset %>%
   filter(x > 1oo) %>%
   arrange(desc(x)) %>%
   head(5)
-  
- ```
+```
   
 
 #general-knowledge#piping
