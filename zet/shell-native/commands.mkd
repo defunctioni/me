@@ -1,0 +1,41 @@
+* `man` - manual 
+* `sudo` - do it as root (superuser)
+* `apt` - Use apt-get when you are writing a script and apt interactively
+* `sudo apt update` - update all the sources for packages
+* `sudo apt upgrade` - upgrade all packages to latest version(review this in the vod around 2:30 hours)
+* `apt search ^neo` - search for all package starting neo(regular expression)
+* `sudo apt remove neofetch` - remove neofetch
+* `sudo apt autoremove` - automatically remove unused packages
+
+* `ls` - list files in current director
+* `ls -al` - list all files including hidden (begin with .)
+* `hostname` - display name of host computer
+* `pwd` - print working directory
+* `cd` - change to a different directory
+* `cd`, `cd ~` - change to home
+* `cl ..` - change into relative parent directory
+* `cd ../..` - change into the relative parent of the parent directory
+* `cd -`     - change to previous directory
+* `cd /`  - change to root directory
+
+* `ip a` - show all IP addresses (ipconfig /all, on Windows)
+* `clear` - clears the screen
+* `which ssh` - display full path to ssh program
+* `type ssh` - display what type of thing it is
+* `who`- display who is logged in an how
+* `id` - display user and group names and ids for self
+* `w` - display logger version of who is logged in
+* `whoami` - print effective user name/ID
+* `users` - short name of all logged in users
+* `last` - summary of last logged in users
+* `exit` - exit the current program or login or shell
+* `| less or | more` - see scrolled output in terminal (q to quit)
+* `<Ctrl>-c` - interrupt whatever (exit)
+* `<Ctrl>-d` - send "end of data/file"
+* `sudo apt install openssh-server` - install ssh server (if not)
+* `vboxmanage startvm <VMNAME> --type headless` - start vm headless
+* `vboxmanage list runningvms` - list running vms
+* `vboxmanage list vms` - list all vms
+* `vboxmanage controlvm <VMNAME> poweroff` - power off headless vm
+* `vim`- basic vim https://rwx.gg/visurvive
+* `nano` - just so you understand nano editor is a thing
