@@ -39,3 +39,35 @@
 * `vboxmanage controlvm <VMNAME> poweroff` - power off headless vm
 * `vim`- basic vim https://rwx.gg/visurvive
 * `nano` - just so you understand nano editor is a thing
+
+
+* `ip -c a` - lookup IP addresses
+* `set -o noclobber` - stop from blowing away files
+* `mv foo other` - change file/directory foo name to other (or move)
+* `mv -i foo other` - change file name but protect against overwrites
+* `cp foo other` - copy file/directory foo name to other (or move)
+* `cp -ar foo other` - copy all foo to other keeping timestamp
+* `scp foo target:` - copy foo from host to remote target home dir (def)
+* `ls -ld (or with .)` - look directory permission on current directory
+* `stat foo` - see all the details about the foo inode
+* `chmod +x foo` - make foo file executable by user, group, other
+* `chmod o-r foo` - make foo unreadable by other
+* `chown rando foo` - change ownership of foo to rando
+* `chown -R jill:jill olddir` - recursively change ownership/group
+* `sudo su -` - effectively login as root without logging out
+* `sudo su` - foo effectively login as foo
+* `stat -c '%a'` - to see octal permissions
+* `cd -` - change into previous directory
+* `echo foo` - write foo to standard output
+* `cat foo` - write content of foo file to standard output
+* `which foo` - print the full file path to the executable foo
+* `ls -l $(which sudo)` - list perms for sudo command
+* `sudo adduser foo` - interactively add a user named foo (not RedHat)
+* `sudo deluser foo` - interactively delete a user named foo (not RedHat)
+* `sudo passwd foo` - change the password for foo
+* `passwd` - change own password
+* `touch` - create new text file or update last modified time stat
+* `rmdir foo` - remove an empty foo directory
+* `rm -rf foo` - remove directory or file foo and everything in it
+* `grep jill /etc/passwd` - list only line containing jill
+* `file foo` - tell type of inode
