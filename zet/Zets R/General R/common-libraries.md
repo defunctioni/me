@@ -1,4 +1,6 @@
 tidyverse
 HMISC
 
-dplyer for data transformations. This is one is found within tidyverse. 
+dplyer for data transformations which is found built into tidyverse. 
+
+
