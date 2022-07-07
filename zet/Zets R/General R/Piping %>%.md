@@ -12,6 +12,8 @@ dataset %>%
   arrange(desc(x)) %>%
   head(5)
 ```
-  
+
+
+There are times when piping is not the best approach. Such as when there are so many commands in the pipe that the result gets disorganized.
 
 #general-knowledge#piping
