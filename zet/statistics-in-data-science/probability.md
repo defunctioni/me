@@ -1,1 +1,1 @@
-Understanding probability in data science is useful for simulating scenarios. 
+Understanding probability in data science is useful when creating simulations. 
