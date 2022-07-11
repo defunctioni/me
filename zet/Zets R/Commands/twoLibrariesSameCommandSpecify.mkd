@@ -1,6 +1,6 @@
 # Two Libraries, Same Command. Specify Which One to Use. 
 
-* If you have two libraries that have the same function, you can      specifiy which library's function you want to use. 
+If you have two libraries that have the same function, you can      specifiy which library's function you want to use. 
 
 1. Load in the libary(s) using library(libraryName). 
 2. Hit the Run button that has a green arrow. 
