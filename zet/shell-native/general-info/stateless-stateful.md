@@ -1,7 +1,7 @@
 # Stateless vs Stateful
 
 ## Stateless Example IRL: 
-Stateless transactions are vending machines: a single request and a response.
+Stateless transactions are like vending machines: a single request and a response.
 
 ## Stateless Example Application:
 Doing a search online. You type your query into a search engine and press enter. If your transcation is interrupted, you just start a new one.
