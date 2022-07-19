@@ -19,8 +19,8 @@ Having an ongoing periodic conversation with the same person.
 ## Stateful Example Application: 
 Online banking, email. Stateful apps track things like window location, setting preferences, and recent activity. 
 
-* Stateful applications/processes are those that can be returned to again and again. They're performed with the context of previous transactions and the current transaction may be affected by what happened during previously transactions. 
-The majority of applications we use day to day are stateful, but as tech advances, microservices and containers make it easier to build and deploy apps in the cloud.
+* Stateful applications/processes are those that can be returned to again and again. They're performed with the context of previous transactions and the current transaction may be affected by what happened during previous transactions. 
+The majority of applications we use day today are stateful, but as tech advances, microservices and containers make it easier to build and deploy apps in the cloud.
 
 https://www.redhat.com/en/topics/cloud-native-apps/stateful-vs-stateless
 
