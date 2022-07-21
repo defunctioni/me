@@ -5,7 +5,7 @@ If you have two libraries that have the same function, you can      specifiy whi
 1. Load in the libary(s) using library(libraryName). 
 2. Hit the Run button which has a green arrow. 
 3. Use the code  **libraryName::describe(fileName)** to specify that you want to use libraryName's describe function.
-4. Hit the Run button that has a green arrow.
+4. Hit the Run button(green arrow).
 
 ```{r}
 library(psych)
